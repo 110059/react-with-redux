@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import FormContainer from './component/FormContainer';
+import React from 'react';
+import './App.css';
+import Counter from './Counter';
+import store from './store/';
 
-class App extends Component {
-   render() {
-    return (
-      <FormContainer />
-    )    
-  }
+class App extends React.Component {
+    render() {
+        return (
+            <Counter store={store} />
+        )
+    }
 }
 
 export default App;
