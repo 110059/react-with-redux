@@ -40,3 +40,85 @@
 .todo-class-todo {
   background-color: grey;
 }
+
+@keyframes myanimation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes myanimation2 {
+  0% {
+    background-color: red;
+    transform: rotate(30deg);
+  }
+  25% {
+    background-color: yellow;
+    transform: skewX(65%)
+  }
+  50% {
+    background-color: blue;
+    transform: matrix()
+  }
+  25% {
+    background-color: green;
+    transform: rotate(120deg)
+  }
+}
+
+.testClass {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+
+.divA {
+  margin: 50px;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  position: fixed;
+  outline-style: dashed;
+  outline-color: #61dafb;
+  outline-width: 20px;
+  word-break: 
+}
+
+.divB {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.divC {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+}
+
+.one {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.one >  div {
+  width: 80px;
+  height: 80px;
+  border: 1px solid;
+  background-color: #61dafb;
+}
